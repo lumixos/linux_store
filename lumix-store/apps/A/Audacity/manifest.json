@@ -1,1 +1,16 @@
-
+{
+  "id": "audacity",
+  "name": "Audacity",
+  "version": "3.7.7",
+  "description": "Audio editor and recorder",
+  "category": "audio",
+  "arch": "x86_64",
+  "size": "60MB",
+  "license": "GPL-2.0",
+  "dependencies": ["alsa", "libgtk"],
+  "files": {
+    "package": "package.tar.gz",
+    "icon": "icon.png"
+  },
+  "entry": "bin/audacity"
+}
